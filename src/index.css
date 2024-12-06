@@ -13,7 +13,7 @@ body {
 .carousel {
     overflow: hidden;
     max-width: 60rem;
-    margin: 150px auto;
+    margin: 40px auto;
     cursor: -webkit-grab;
     cursor: grab;
 }

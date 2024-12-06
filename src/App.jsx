@@ -29,11 +29,7 @@ function App() {
                     {images.map((image) => {
                         return (
                             <motion.div className="item" key={image}>
-                                <img
-                                    src={image}
-                                    alt="carousel-image"
-                                    loading="lazy"
-                                />
+                                <img src={image} alt="carousel-image" />
                             </motion.div>
                         );
                     })}
